@@ -1,0 +1,25 @@
+.nav{
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 30px;
+  color: white;
+}
+
+.nav-icons{
+  display: flex;
+  font-size: 35px;
+  gap: 40px;
+  justify-content: right;
+  color: #FFD700;
+}
+
+.nav-icons i{
+  transition: color 0.5s, transform 0.5s;
+  cursor: pointer;
+}
+
+.nav-icons i:hover{
+  color: #fff;
+  transform: scale(1.5);
+  opacity: 0.7;
+}
